@@ -1,0 +1,116 @@
+:root {
+    --color-primario: #483d8b;
+    --color-gris-oscuro: #dddddd;
+    --color-gris-claro: #fbfbfb;
+    --color-secundario: #f0eefb;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.user-section{
+    width: 100%;
+}
+
+.user-section h2 {
+    cursor: pointer;
+}
+
+.barra-horizontal{
+    border: none;
+    height: 1px;
+    background-color: var(--color-gris-oscuro);
+    margin: 15px 0;
+}
+
+.controls-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.radio-group{
+    display: flex;
+    gap: 20px;
+}
+
+.search-box input {
+    padding: 8px 12px;
+    border: 1px solid var(--color-gris-oscuro);
+    border-radius: 4px;
+    background-color: #ffffff;
+    width: 250px;
+}
+
+.buttons-container button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.btn-create{
+    background-color: var(--color-primario);
+    color: white;
+    border: 1px solid var(--color-primario);
+}
+
+.btn-deactivate, .btn-reset{
+    background-color: transparent;
+    color: var(--color-primario);
+    border: 1px solid var(--color-primario);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--color-gris-oscuro);
+}
+
+th {
+    font-weight: bold;
+}
+
+tr:nth-child(odd){
+    background-color: var(--color-gris-claro);
+}
+
+tr:hover{
+    background-color: var(--color-secundario);
+}
+
+.username-cell{
+    color: var(--color-primario);
+    font-weight: bold;
+}
+

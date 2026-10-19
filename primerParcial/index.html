@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Parcial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header>
+        <h1>Parcial 1 - Division 131</h1>
+    </header>
+
+
+    <main>
+        <section class="user-section">
+            <h2>Users</h2>
+
+            <hr class="barra-horizontal">
+
+            <div class="controls-container">
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="status" checked> Active
+                    </label>
+                    <label>
+                        <input type="radio" name="status"> Inactive
+                    </label>
+                    <label>
+                        <input type="radio" name="status"> All
+                    </label>
+                </div>
+                <div class="search-box">
+                    <input type="text" placeholder="Search Users">
+                </div>
+            </div>
+                
+            <div class="buttons-container">
+                <button class="btn-create">CREATE</button>
+                <button class="btn-deactivate">DEACTIVATE</button>
+                <button class="reset">RESET PASSWORD</button>
+            </div>
+            <div id="users-container"></div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>Claverino Ignacio</p>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
+
